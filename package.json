@@ -1,0 +1,30 @@
+{
+  "name": "payment-method",
+  "version": "1.0.0",
+  "description": "Payment Method - Mercado Pago",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleysontiago/payment-method.git"
+  },
+  "keywords": [
+    "payment",
+    "method"
+  ],
+  "author": "Wesleyson Tiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleysontiago/payment-method/issues"
+  },
+  "homepage": "https://github.com/wesleysontiago/payment-method#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mercadopago": "^1.3.2",
+    "nodemon": "^2.0.4",
+    "routes": "^2.1.0"
+  }
+}
